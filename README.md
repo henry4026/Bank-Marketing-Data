@@ -12,7 +12,18 @@ Predicting future customers purchase term deposit
 5. tuning model
 ## modeling.
 1. use 3 different model: logistic regression, gradient boosting, random forest.
-2. create roc cuver, compare the 3 different models with the AUC.
+2. create roc curve, compare the 3 different models with the AUC.
 3. create confusion matrix, compare the 3 different models with cost benefit matrix.
+4. focus on recall rate.
+5. decision boundary, try different threshold to find which generate the most profit.
+6. create precision/recall Curve graph to show precision/recall
+7. create decision boundary graph to show different profit with differet threshold
+## finding.
+1. my dataset is imbalance so roc curve isn't very accurary, thats why i chose precision/recall.
 ## conclusion. 
-1. logistic regression generate the most profit from cost benefit matrix.
+1. final random forest model hsa around 80% recall and 53% precision.
+2. random forest generate the most profit from cost benefit matrix.
+## future action.
+1. focus more on gridsearch
+2. better visualization
+3. try more models
