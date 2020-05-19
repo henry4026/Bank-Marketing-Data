@@ -21,7 +21,7 @@ Predicting future customers purchase term deposit
 ## finding.
 1. my dataset is imbalance so roc curve isn't very accurary, thats why i chose precision/recall.
 ## conclusion. 
-1. final random forest model hsa around 80% recall and 53% precision.
+1. final random forest model has around 80% recall and 53% precision.
 2. random forest generate the most profit from cost benefit matrix.
 ## future action.
 1. focus more on gridsearch
